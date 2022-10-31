@@ -10,3 +10,28 @@
 .nav-link:hover{
     color: #ce93d8;
 }
+
+.shadow{
+    color: #fafafa;
+    background-color:#212121;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    
+}
+
+.liAqdn a{
+    color: #fafafa;
+}
+.link{
+    color: #fafafa;
+}
+
+.link:hover{
+    color: #ce93d8;
+}
+
+.zaPading{
+    margin: 5px;
+}
