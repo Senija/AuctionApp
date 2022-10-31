@@ -1,0 +1,12 @@
+.logo{
+    width: 50%;
+}
+
+.navLink{
+    color: grey;
+}
+
+
+.nav-link:hover{
+    color: #ce93d8;
+}
