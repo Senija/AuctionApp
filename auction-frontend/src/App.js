@@ -1,14 +1,22 @@
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import TermsAndCOnditions from "./components/TermsAndCOnditions";
+import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      {/*       
       <Header/>
-      <Footer/>
+      <Footer/> */}
+      <Router>
+        
+          <Routes>
+            <Route path="/termsAndConditions" element={<TermsAndCOnditions />}></Route>
+          </Routes>
+       
+      </Router>
     </div>
   );
 }

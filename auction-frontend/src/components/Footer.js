@@ -6,6 +6,7 @@ import { grey } from "@mui/material/colors";
 import Container from "react-bootstrap/Container";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import "../assets/App.css";
 const Footer = () => {
   return (
@@ -30,7 +31,7 @@ const Footer = () => {
                   About Us
                 </a>{" "}
                 <br />
-                <a className="link" href="/">
+                <a className="link" href="/TermsAndConditions">
                   Terms and Conditions
                 </a>{" "}
                 <br />
@@ -81,17 +82,18 @@ const Footer = () => {
                 Enter your email adress and get notified about <br></br> new
                 products. We hate spam!
               </p>
-              <div>
+              
                 <TextField
                   id="filled-search"
                   //label="Search field"
                   placeholder="Enter e-mail"
                   type="text"
                   variant="filled"
-                  sx={{ color: grey[900], bgcolor: grey[300] }}
+                  color="secondary"
+                  sx={{ color: grey[900], bgcolor: grey[300]}}
                 />
-                <Button variant="outlined">Go </Button>
-              </div>
+                <Button variant="outlined" color="secondary" sx={{margin: 2, alignItems: 'center'}} endIcon={<ArrowForwardIosIcon />}>Go </Button>
+              
             </CDBBox>
             {/* <CDBBox>
             <p className="h5 mb-4" style={{ fontWeight: "600" }}>
