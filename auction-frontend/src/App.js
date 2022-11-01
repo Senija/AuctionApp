@@ -12,6 +12,7 @@ function App() {
       <Footer/> */}
       <Router>
         
+          <Header/>
           <Routes>
             <Route path="/termsAndConditions" element={<TermsAndCOnditions />}></Route>
           </Routes>
