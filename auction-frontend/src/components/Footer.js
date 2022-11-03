@@ -35,7 +35,7 @@ const Footer = () => {
                   Terms and Conditions
                 </a>{" "}
                 <br />
-                <a className="link" href="/">
+                <a className="link" href="/privacyPolicy">
                   Privacy and Policy
                 </a>{" "}
                 <br />

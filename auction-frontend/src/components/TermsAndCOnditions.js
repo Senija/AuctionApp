@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 function TermsAndCOnditions() {
   return (
     <>
-      <Header />
+      
       <Container>
         <h1>Terms and Conditions for Atlantbh</h1>
 
