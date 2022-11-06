@@ -11,20 +11,20 @@ const Footer: React.FC = () => {
     <>
       <div className="footerMain">
         <Container>
-          <div className="container">
+          <div className="containerF">
             <div className="title">
               AUCTION <br /> <br />
-              <Link className="link" to="/about">
+              <Link className="link" to="/aboutus">
                 {" "}
                 About us
               </Link>{" "}
               <br />
-              <Link className="link" to="termsandconditions">
+              <Link className="link" to="terms">
                 {" "}
                 Terms and Conditions
               </Link>
               <br />
-              <Link className="link" to="privacyandpolicy">
+              <Link className="link" to="privacypolicy">
                 {" "}
                 Privacy and Policy
               </Link>
@@ -62,4 +62,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer;
+export default Footer

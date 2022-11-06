@@ -8,11 +8,11 @@
     font-family: "Gill Sans", sans-serif;
 }
 
-.container{
+.containerF{
     display: flex;
     flex-direction: row;
     color: var(--white);
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
