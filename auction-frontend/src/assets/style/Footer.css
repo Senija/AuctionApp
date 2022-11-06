@@ -1,0 +1,42 @@
+.footerMain{
+    background-color: var(--darkgrey);
+   padding: 10px 10px 10px 0;
+}
+
+.title{
+    color: var(--grey);
+    font-family: "Gill Sans", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
+    justify-content: space-around;
+    
+}
+
+.link{
+    color: var(--white);
+    text-decoration: none;
+}
+a.link:hover{
+    color: #ce93d8;
+}
+
+.inputF{
+    background-color: #e0e0e0;
+    width: 60%;
+    border: 0ch;
+    height: 50%;
+}
+
+.inputF:focus{
+    outline:none;
+}
+
+.containerInput{
+    display: flex;
+    align-items: stretch;
+}
+
