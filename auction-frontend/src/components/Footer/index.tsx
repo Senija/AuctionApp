@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Button from "@mui/material/Button";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from "react-router-dom";
-import "../assets/style/Footer.css";
+import "./Footer.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Footer: React.FC = () => {

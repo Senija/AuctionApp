@@ -1,6 +1,6 @@
 import React from 'react';
-import "../assets/style/Header.css";
-import "../assets/style/colors.css";
+import "./Header.css";
+import "../../assets/style/colors.css"
 import Container from "react-bootstrap/Container";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from "react-bootstrap/Nav";

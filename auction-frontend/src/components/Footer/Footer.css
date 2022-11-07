@@ -21,11 +21,11 @@
     text-decoration: none;
 }
 a.link:hover{
-    color: #ce93d8;
+    color: var(--pink);
 }
 
 .inputF{
-    background-color: #e0e0e0;
+    background-color: var(--darkwhite);
     width: 60%;
     border: 0ch;
     height: 50%;
