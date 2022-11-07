@@ -1,0 +1,21 @@
+.input{
+    border: 0ch;
+    width: 95%;
+    margin: 2px;
+    background-color: white;
+}
+
+.input:focus{
+    outline:none;
+}
+
+.inputDiv{
+   border-color: grey;
+   background-color: white;
+   width: 75%;
+}
+.inputDiv:focus{
+    outline-color: grey;
+    border-color: grey;
+    border-style: solid;
+}
