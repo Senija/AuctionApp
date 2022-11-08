@@ -1,0 +1,14 @@
+.categoryDiv {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  border-bottom: var(--grey);
+  border-width: 1px;
+  width: inherit;
+  border-bottom-style: solid;
+  background-color: var(--purewhite);
+}
+

@@ -1,0 +1,11 @@
+.ulDiv {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 262px;
+  height: 616px;
+  font-family: var(--font);
+  color: var(--pink);
+  align-items: center;
+}

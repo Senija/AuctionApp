@@ -6,6 +6,7 @@ import Terms from "./pages/Terms";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AboutUs from "./pages/AboutUs";
+import CategoriesMenu from "./components/CategoriesMenu";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/aboutus" element={<AboutUs/>}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/shop" element={<CategoriesMenu/>}></Route>
         </Routes>
         <Footer />
       </Router>
