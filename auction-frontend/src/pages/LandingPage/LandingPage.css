@@ -1,0 +1,14 @@
+/* body{
+    background-color: var(--white);
+} */
+.landingPageDiv {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-content: last baseline;
+  gap: 60px;
+}
+
+.wrapper {
+  background-color: var(--white);
+}

@@ -7,6 +7,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AboutUs from "./pages/AboutUs";
 import CategoriesMenu from "./components/CategoriesMenu";
+import LandingPage from "./pages/LandingPage/index";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs/>}></Route>
         </Routes>
         <Routes>
-          <Route path="/shop" element={<CategoriesMenu/>}></Route>
+          <Route path="/shop" element={<LandingPage/>}></Route>
         </Routes>
         <Footer />
       </Router>

@@ -10,5 +10,7 @@
   width: inherit;
   border-bottom-style: solid;
   background-color: var(--purewhite);
+  min-width: -moz-available;
+  color: black;
 }
 

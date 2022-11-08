@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Navbar bg="light" variant='light'>
+      <Navbar  variant='light' className='navClass'>
         <Container>
           <Navbar.Brand>
             <GavelIcon fontSize="medium" sx={{ color: grey[500] }} />
@@ -47,10 +47,11 @@ const Header: React.FC = () => {
             <form>
               <input className='input' type="text" placeholder='Try enter: Shoes'>
               </input>
-              <IconButton type="submit">
+              
+            </form>
+            <IconButton type="submit">
               <SearchIcon sx={{ color: grey[500] }} />
             </IconButton>
-            </form>
           </div>
           
           <Nav>

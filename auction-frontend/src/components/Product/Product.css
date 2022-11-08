@@ -1,0 +1,28 @@
+.productName{
+    font-family: var(--font);
+}
+h2.productName{
+    color: var(--pink);
+}
+
+.image{
+    /* max-width: 100%; */
+    height: 400px;
+    padding: 10px;
+}
+
+.containerProduct{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nmdContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgContainer{
+    max-height: fit-content;
+}

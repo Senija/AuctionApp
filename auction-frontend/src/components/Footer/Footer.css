@@ -5,7 +5,7 @@
 
 .title{
     color: var(--grey);
-    font-family: "Gill Sans", sans-serif;
+    font-family: var(--font);
 }
 
 .containerF{

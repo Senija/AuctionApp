@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "Running shoes",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit odio a erat lobortis auctor. Curabitur sodales pharetra placerat. Aenean auctor luctus tempus. Cras laoreet et magna in dignissim. Nam et tincidunt augue. Vivamus quis malesuada velit. In hac habitasse platea dictumst. ",
+    "minimumBid": 59,
+    "creationDate": "2022-11-8",
+    "closingDate": "2022-12-8",
+    "categoryId": 1,
+    "ownerId": 1,
+    "imageUrl": "/images/runningShoes.jpg"
+  }
+]
