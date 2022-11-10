@@ -12,3 +12,6 @@
 .wrapper {
   background-color: var(--white);
 }
+.tabsDiv{
+    display: flex;
+}
