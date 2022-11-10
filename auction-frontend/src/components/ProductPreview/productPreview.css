@@ -1,0 +1,21 @@
+.productPreviewDiv{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: auto;
+}
+.productPreviewImg{
+    height: auto;
+    width: 100%;
+}
+
+.nameP{
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: large;
+}
+
+.bidSmall{
+    font-family: --var(font);
+    color: var(--pink);
+}

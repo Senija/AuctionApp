@@ -6,12 +6,16 @@ interface ProductProps {
   minBid: number;
   imageUrl: string;
 }
-const ProductPreview: React.FC<ProductProps> = ({ name, minBid, imageUrl}) => {
+const ProductPreview: React.FC<ProductProps> = ({ name, minBid, imageUrl }) => {
   return (
     <>
-      <img src={image} alt="image"/>
-      <h1>{name}</h1>
-      <p>Start from {minBid}</p>
+      {/* <div className="productPreviewDiv"> */}
+        <img className="productPreviewImg" src={image} alt="image" />
+        <p className="nameP">{name} <br/>
+        <small className="bidSmall">Start from ${minBid}</small>
+        </p>
+        
+      {/* </div> */}
     </>
   );
 };

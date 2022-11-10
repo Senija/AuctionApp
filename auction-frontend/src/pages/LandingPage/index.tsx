@@ -21,7 +21,7 @@ const LandingPage: React.FC = () => {
 
           <Tabs>
             <Tab title="New Arrivals"><ProductGrid/></Tab>
-            <Tab title="Last chance">probaaa2</Tab>
+            <Tab title="Last chance"><ProductGrid/></Tab>
           </Tabs>
         </Container>
       </div>

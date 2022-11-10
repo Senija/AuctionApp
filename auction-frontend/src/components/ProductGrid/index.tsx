@@ -5,9 +5,11 @@ import ProductPreview from '../ProductPreview';
 
 const ProductGrid = () => {
   return (
-    <div>
+    <div className='productGridDiv'>
       {products.map((product)=>(
+        <div className='gridItem'>
         <ProductPreview name={product.name} minBid={product.minimumBid} imageUrl={product.imageUrl}/>
+        </div>
       ))}
     </div>
   )
