@@ -1,0 +1,9 @@
+.productGridDiv{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+.gridItem{
+    flex: 4;
+}

@@ -1,21 +1,29 @@
-.input{
-    border: 0ch;
-    width: 95%;
-    margin: 2px;
-    background-color: white;
+.input {
+  border: 0ch;
+  width: 95%;
+  margin: 2px;
+  background-color: white;
 }
 
-.input:focus{
-    outline:none;
+.input:focus {
+  outline: none;
 }
 
-.inputDiv{
-   border-color: grey;
-   background-color: white;
-   width: 75%;
+.inputDiv {
+  border-color: var(--darkwhite);
+  background-color: white;
+  width: 75%;
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: row;
+  justify-content: inherit;
 }
-.inputDiv:focus{
-    outline-color: grey;
-    border-color: grey;
-    border-style: solid;
+.inputDiv:focus {
+  outline-color: grey;
+  border-color: grey;
+  border-style: solid;
 }
+/* .navClass{
+    background-color: red;
+} */

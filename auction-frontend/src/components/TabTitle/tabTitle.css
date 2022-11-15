@@ -1,0 +1,26 @@
+.tabButton{
+    font-family: var(--font);
+    background-color: var(--white);
+    border: none;
+    font-weight: 500;
+    margin: 0;
+   
+}
+
+.tabButton:focus{
+    border-bottom: 2px solid var(--pink);
+
+}
+
+.tabButton::before{
+    border-bottom: 2px solid var(--pink);
+}
+
+.liTabTitle{
+    display: inline;
+    gap: 5px;
+    margin: 0;
+}
+.liTabTitle:active{
+    border-bottom: 2px solid var(--pink);
+}

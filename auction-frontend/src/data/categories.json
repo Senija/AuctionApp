@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "categoryName":"Fashion",
+        "parentId": null
+    },
+    {
+        "id":2,
+        "categoryName":"Accessories",
+        "parentId": null
+    },
+    {
+        "id":3,
+        "categoryName":"Jewlery",
+        "parentId": null
+    },
+    {
+        "id":4,
+        "categoryName":"Shoes",
+        "parentId": null
+    },
+    {
+        "id":5,
+        "categoryName":"Sportware",
+        "parentId": null
+    }
+    
+]
