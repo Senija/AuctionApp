@@ -3,6 +3,7 @@ import "./CategoriesMenu.css";
 import categories from "../../data/categories.json";
 import SingleCategory from "../SingleCategory";
 import Container from "react-bootstrap/Container";
+import axios 
 
 interface CategoryProps {
   id: Number;

@@ -24,10 +24,16 @@ public class Product {
     private LocalDate closingDate;
     private String imageUrl;
 
+    @OneToOne(orphanRemoval = true)
+    @JoinColumn(name = "category_id")
+    private Category category;
+
+
+
     public Product() {
     }
 
-    public Product(Long id, String name, String details, Double minimalBid, LocalDate creationDate, LocalDate closingDate, String imageUrl) {
+    public Product(Long id, String name, String details, Double minimalBid, LocalDate creationDate, LocalDate closingDate, String imageUrl, Category category) {
         this.id = id;
         this.name = name;
         this.details = details;
@@ -35,16 +41,18 @@ public class Product {
         this.creationDate = creationDate;
         this.closingDate = closingDate;
         this.imageUrl = imageUrl;
+        this.category = category;
         //sa svime konstruktor
     }
 
-    public Product(String name, String details, Double minimalBid, LocalDate creationDate, LocalDate closingDate, String imageUrl) {
+    public Product(String name, String details, Double minimalBid, LocalDate creationDate, LocalDate closingDate, String imageUrl, Category category) {
         this.name = name;
         this.details = details;
         this.minimalBid = minimalBid;
         this.creationDate = creationDate;
         this.closingDate = closingDate;
         this.imageUrl = imageUrl;
+        this.category = category;
     }
 
     public Long getId() {
@@ -103,6 +111,13 @@ public class Product {
         this.imageUrl = imageUrl;
     }
 
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
     @Override
     public String toString() {
         return "Product{" +
