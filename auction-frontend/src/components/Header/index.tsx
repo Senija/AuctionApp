@@ -58,7 +58,7 @@ const Header: React.FC = () => {
             <Nav.Link className='navLink' href="#home">
               HOME
             </Nav.Link>
-            <Nav.Link className='navLink' href="#shop">
+            <Nav.Link className='navLink' href="/shop">
               SHOP
             </Nav.Link>
             <Nav.Link className='navLink' href="#myaccount">

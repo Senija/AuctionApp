@@ -12,8 +12,8 @@ interface CategoryProps {
 
 const CategoriesMenu = () => {
   return (
-    //<Container fluid="md">
-      <div className="ulDiv">
+    
+      <div className="categoriesContainer">
         CATEGORIES
         {categories.map((category) => (
           <SingleCategory
@@ -22,7 +22,7 @@ const CategoriesMenu = () => {
           />
         ))}
       </div>
-     //</Container>
+     
   );
 };
 
